@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Reminda (مذكرتك) privacy policy and support. The app collects no data; everything stays on your device.">
+<meta name="color-scheme" content="light dark">
+<title>Reminda Privacy & Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lalezar&family=Rubik:wght@400;500;700;800&display=swap">
+<style>
+  /* Layout: one readable column; Arabic first, English below; each section a bordered Neo-Brutalism card, as in the app. */
+  :root {
+    --bg: #EEF0FF; --dot: #CDD2FA; --surface: #FFFFFF; --ink: #0A0A23; --muted: #3B3F7A;
+    --line: #0A0A23; --shadow: #0A0A23; --primary: #C8F135; --on-primary: #0A0A23; --soft: #DCE0FF;
+    --display: "Lalezar", "Rubik", system-ui, sans-serif;
+    --body: "Rubik", -apple-system, "SF Arabic", "Segoe UI", Tahoma, sans-serif;
+    --sx: -1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0C0D14; --dot: #181A26; --surface: #161824; --ink: #E2E4F2; --muted: #9EA2C2;
+      --line: #50557A; --shadow: #4F5C24; --primary: #B3C96A; --on-primary: #12160A; --soft: #232741; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0C0D14; --dot: #181A26; --surface: #161824; --ink: #E2E4F2; --muted: #9EA2C2;
+    --line: #50557A; --shadow: #4F5C24; --primary: #B3C96A; --on-primary: #12160A; --soft: #232741; color-scheme: dark;
+  }
+  body {
+    background-color: var(--bg); color: var(--ink); font-family: var(--body);
+    background-image: radial-gradient(var(--dot) 1.4px, transparent 1.4px); background-size: 18px 18px;
+    padding: 0 16px; line-height: 1.75; font-size: 16px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding-block: 32px 64px; display: grid; gap: 22px; }
+  [dir="ltr"] { --sx: 1; }
+  header { display: grid; gap: 10px; }
+  .brand { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  h1 { margin: 0; font: 400 clamp(36px, 7vw, 52px)/1.1 var(--display); text-wrap: balance; }
+  .langs { display: flex; gap: 8px; direction: ltr; }
+  .langs a {
+    color: var(--ink); text-decoration: none; font-weight: 800; font-size: 14px;
+    background: var(--surface); border: 2.5px solid var(--line); border-radius: 999px; padding: 6px 14px;
+    box-shadow: -3px 3px 0 var(--shadow);
+  }
+  .langs a:focus-visible, a:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+  .lead { margin: 0; color: var(--muted); font-weight: 500; }
+  .stamp {
+    justify-self: start; background: var(--primary); color: var(--on-primary); font-weight: 800; font-size: 13px;
+    border: 2.5px solid var(--line); border-radius: 8px; padding: 3px 10px; transform: rotate(-1.5deg);
+  }
+  section.lang { display: grid; gap: 18px; }
+  .card {
+    background: var(--surface); border: 3px solid var(--line); border-radius: 18px;
+    box-shadow: calc(var(--sx) * 5px) 5px 0 var(--shadow); padding: 18px 20px; min-width: 0;
+  }
+  .card h2 { margin: 0 0 6px; font: 400 26px/1.3 var(--display); }
+  .card p { margin: 0 0 10px; }
+  .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+  .card ul { margin: 0 0 10px; padding-inline-start: 22px; }
+  .card li { margin-bottom: 6px; }
+  .key {
+    background: var(--primary); color: var(--on-primary); border-color: var(--line);
+  }
+  .key h2 { font-size: 30px; }
+  .key p { font-weight: 700; }
+  .divider { height: 3px; background: var(--line); border-radius: 2px; margin-block: 10px; }
+  dl { margin: 0; display: grid; gap: 12px; }
+  dt { font-weight: 800; }
+  dd { margin: 0; color: var(--muted); }
+  .contact { font-weight: 800; background: var(--soft); border: 2px solid var(--line); border-radius: 10px; padding: 8px 12px; display: inline-block; direction: ltr; user-select: all; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<style>html, body { margin: 0; } img { max-width: 100%; }</style>
+</head>
+<body>
+<div class="wrap">
+  <header dir="rtl">
+    <div class="brand">
+      <h1>مذكرتك · Reminda</h1>
+      <nav class="langs" aria-label="Language"><a href="#ar" lang="ar">العربية</a><a href="#en" lang="en">English</a></nav>
+    </div>
+    <p class="lead">سياسة الخصوصية والدعم · Privacy Policy &amp; Support</p>
+    <span class="stamp">آخر تحديث: 3 أكتوبر 2026 · Updated 3 October 2026</span>
+  </header>
+
+  <!-- ===================== العربية ===================== -->
+  <section class="lang" id="ar" dir="rtl" lang="ar">
+    <div class="card key">
+      <h2>باختصار</h2>
+      <p>مذكرتك لا يجمع أي بيانات عنك. كل ما تكتبه يبقى على جهازك فقط، ولا يُرسل إلى أي خادم، ولا نراه نحن ولا أي جهة أخرى.</p>
+    </div>
+
+    <div class="card">
+      <h2>ما الذي يُحفظ وأين</h2>
+      <p>السجلات التي تضيفها (المواعيد، والفواتير، والاشتراكات، والضمانات، والسُلف، وغيرها)، والصور التي تختارها لها، والملصقات، وإعداداتك، تُحفظ في ملف داخل التطبيق على جهازك.</p>
+      <ul>
+        <li>الملف محمي بتشفير iOS، ولا يُفتح إلا بعد فتح قفل الجوال.</li>
+        <li>عند حذف التطبيق تُحذف هذه البيانات معه.</li>
+        <li>لا يوجد حساب ولا تسجيل دخول.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>ما الذي لا نفعله</h2>
+      <ul>
+        <li>لا نجمع بياناتك الشخصية ولا بيانات الاستخدام.</li>
+        <li>لا إعلانات، ولا تتبّع، ولا أدوات تحليل.</li>
+        <li>لا نبيع أي بيانات ولا نشاركها، لأننا ببساطة لا نملكها.</li>
+        <li>التطبيق لا يتصل بالإنترنت، والخطوط وكل ما يحتاجه موجود داخله.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>ميزات تعمل على جهازك</h2>
+      <dl>
+        <div><dt>التنبيهات</dt><dd>تُجدول محلياً على جهازك عبر نظام iOS، ولا تمر بأي خادم.</dd></div>
+        <div><dt>قفل Face ID</dt><dd>يتحقق نظام iOS من وجهك أو رمزك، ويخبر التطبيق بالنتيجة فقط. التطبيق لا يرى بياناتك الحيوية ولا يحفظها.</dd></div>
+        <div><dt>الويدجت</dt><dd>يقرأ أقرب مواعيدك من مساحة مشتركة على جهازك نفسه.</dd></div>
+        <div><dt>Siri والاختصارات</dt><dd>حين تستخدم Siri تعالج Apple طلبك الصوتي وفق سياسة خصوصيتها، وينفّذ التطبيق الأمر على جهازك.</dd></div>
+        <div><dt>الكاميرا والصور</dt><dd>تُستخدم فقط حين تختار بنفسك صورة لسجل، وتُحفظ الصورة داخل التطبيق على جهازك.</dd></div>
+      </dl>
+    </div>
+
+    <div class="card">
+      <h2>النسخة الاحتياطية</h2>
+      <p>حين تطلب نسخة احتياطية، يُنشئ التطبيق ملفاً مشفّراً بكلمة مرور تختارها أنت (AES-256)، ثم تختار أنت أين تحفظه أو ترسله. إن حفظته في خدمة مثل iCloud Drive تنطبق عليه سياسة تلك الخدمة. لا أحد يستطيع فتح الملف بدون كلمة المرور، ولا يمكن استرجاعها إن نُسيت.</p>
+    </div>
+
+    <div class="card">
+      <h2>الأطفال</h2>
+      <p>التطبيق لا يجمع بيانات من أي مستخدم، بمن فيهم الأطفال.</p>
+    </div>
+
+    <div class="card">
+      <h2>التغييرات</h2>
+      <p>إن تغيّرت هذه السياسة، ننشر النسخة الجديدة في هذه الصفحة مع تاريخ التحديث.</p>
+    </div>
+
+    <div class="divider" role="presentation"></div>
+
+    <div class="card" id="support-ar">
+      <h2>الدعم والأسئلة الشائعة</h2>
+      <dl>
+        <div><dt>كيف أنقل سجلاتي إلى جوال جديد؟</dt><dd>من المحفوظات ← «نسخة احتياطية مشفّرة»، ثم احفظ الملف. وفي الجوال الجديد: المحفوظات ← «استعادة نسخة» واكتب كلمة المرور.</dd></div>
+        <div><dt>لا تصلني التنبيهات</dt><dd>اضغط «تفعيل التنبيه» في الصفحة الرئيسية، وتأكد من الإعدادات ← مذكرتك ← الإشعارات.</dd></div>
+        <div><dt>كيف أغيّر المظهر؟</dt><dd>من زر لوحة الألوان أعلى أي صفحة: شمس أو واحة أو حبر، وفاتح أو داكن أو تلقائي.</dd></div>
+        <div><dt>نسيت كلمة مرور النسخة الاحتياطية</dt><dd>لا يمكن استرجاعها، لأن الملف مشفّر ولا نملك نسخة منها. سجلاتك على جهازك لا تتأثر.</dd></div>
+      </dl>
+      <p style="margin-top:14px">للتواصل والاقتراحات:</p>
+      <span class="contact">kaq.apps@gmail.com</span>
+    </div>
+  </section>
+
+  <!-- ===================== English ===================== -->
+  <section class="lang" id="en" dir="ltr" lang="en">
+    <div class="card key">
+      <h2>In short</h2>
+      <p>Reminda does not collect any data about you. Everything you write stays on your device only. It is never sent to a server, and neither we nor anyone else can see it.</p>
+    </div>
+
+    <div class="card">
+      <h2>What is stored, and where</h2>
+      <p>The records you add (appointments, invoices, subscriptions, warranties, loans and more), the photos you attach to them, your stickers and your settings are saved in a file inside the app, on your device.</p>
+      <ul>
+        <li>The file is protected by iOS encryption and opens only after your phone is unlocked.</li>
+        <li>Deleting the app deletes this data with it.</li>
+        <li>There is no account and no sign-in.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>What we don't do</h2>
+      <ul>
+        <li>We don't collect personal data or usage data.</li>
+        <li>No ads, no tracking, no analytics tools.</li>
+        <li>We don't sell or share any data, because we simply don't have it.</li>
+        <li>The app doesn't connect to the internet; its fonts and everything it needs are built in.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Features that run on your device</h2>
+      <dl>
+        <div><dt>Alerts</dt><dd>Scheduled locally on your device by iOS; they never pass through a server.</dd></div>
+        <div><dt>Face ID lock</dt><dd>iOS checks your face or passcode and tells the app only whether it succeeded. The app never sees or stores biometric data.</dd></div>
+        <div><dt>Widget</dt><dd>Reads your next dates from a shared space on the same device.</dd></div>
+        <div><dt>Siri &amp; Shortcuts</dt><dd>When you use Siri, Apple processes your voice request under Apple's privacy policy, and the app carries out the command on your device.</dd></div>
+        <div><dt>Camera &amp; photos</dt><dd>Used only when you choose a photo for a record yourself; the photo is saved inside the app on your device.</dd></div>
+      </dl>
+    </div>
+
+    <div class="card">
+      <h2>Backups</h2>
+      <p>When you ask for a backup, the app creates a file encrypted with a password you choose (AES-256), and you decide where to save or send it. If you save it to a service such as iCloud Drive, that service's policy applies. Nobody can open the file without the password, and a forgotten password can't be recovered.</p>
+    </div>
+
+    <div class="card">
+      <h2>Children</h2>
+      <p>The app collects no data from any user, children included.</p>
+    </div>
+
+    <div class="card">
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will be posted on this page with its date.</p>
+    </div>
+
+    <div class="divider" role="presentation"></div>
+
+    <div class="card" id="support-en">
+      <h2>Support &amp; FAQ</h2>
+      <dl>
+        <div><dt>How do I move my records to a new phone?</dt><dd>Saved → "Encrypted backup", then save the file. On the new phone: Saved → "Restore backup" and enter the password.</dd></div>
+        <div><dt>I'm not getting alerts</dt><dd>Tap "Enable alerts" on the Home page, and check Settings → Reminda → Notifications.</dd></div>
+        <div><dt>How do I change the look?</dt><dd>Tap the palette button at the top of any page: Sunny, Oasis or Ink, and light, dark or automatic.</dd></div>
+        <div><dt>I forgot my backup password</dt><dd>It can't be recovered: the file is encrypted and we don't have a copy. The records on your device are not affected.</dd></div>
+      </dl>
+      <p style="margin-top:14px">Questions and suggestions:</p>
+      <span class="contact">kaq.apps@gmail.com</span>
+    </div>
+  </section>
+
+  <footer>© 2026 مذكرتك · Reminda</footer>
+</div>
+</body>
+</html>
